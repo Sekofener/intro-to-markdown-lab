@@ -8,36 +8,36 @@ In JavaScript, functions are blocks of reusable code. They allow you to bundle f
   // code to be executed
 }
 ```
-1.  const: const should be used whenever a function expression is assigned to a variable. 1
-1. The function name: The name you choose for the function. 1.
-1. Parameters: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required. 1
-1. The arrow syntax: Indicates that this will be a function. 1
-1. The body: The statements that make up the function itself. Surrounded by curly braces. 1
+1. const:  **const should be used whenever a function expression is assigned to a variable.**
+1. The function name:  **The name you choose for the function.**
+1. Parameters: **Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.**
+1. The arrow syntax: **Indicates that this will be a function.**
+1. The body: **The statements that make up the function itself. Surrounded by curly braces.**
 
-Example:
+**Example:**
 
 ```const greet = (name) => {
   console.log("Hello, " + name + "!");
-}```
+}
+```
 
-Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
+ > Tip:  Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
 2. Calling a function
 
-To execute the function, you ***call or invoke*** it by using its name followed by parentheses.
-
-***Example:***
+To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
+**Example:**
 
 ```greet('Alice'); // Outputs: Hello, Alice!```
 
 3. Return values
 
-Functions can process data input and output a value using the ***return*** keyword.
+Functions can process data input and output a value using the *return* keyword.
 
-***Example:*** 
+**Example**: 
 ```
 const addNums = (numA, numB) => {
-  return numA + numB
+  **return** numA + numB
 }
 ```
 
@@ -47,7 +47,7 @@ console.log(total) // Expected value: 6
 ```
 
 For more information on functions and how they are used in JS, check out the MDN docs. 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+    [Google](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 # h1
 ## h2
@@ -77,9 +77,9 @@ The body: ...
 2. Second item
    1. Subitem 2.1
    2. Subitem 2.2
-Use the `console.log()` function to print values to the console.
 
 Use the `console.log()` function to print values to the console.
+
 ```javascript
 const printItem = (item) => {
   console.log(item);
@@ -87,7 +87,7 @@ const printItem = (item) => {
 ```
 const printItem = (item) => {
   console.log(item);
-}
+} ```
 [Google](https://www.google.com)
 
 This is [a reference][example].
@@ -96,4 +96,11 @@ This is [a reference][example].
 
 This is [a reference][example].
 
-[example]: http://www.example.com/
+![some alt text](www.url_to_an_image.com/image)
+
+![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+
+
+![vision](https://images.unsplash.com/photo-1719300368274-9efe9c6b2d37?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
